@@ -1,0 +1,12 @@
+<configs>
+
+<!--	// 7DXMLfix // MOD: Retractable Stock -->
+
+		<append xpath="/item_modifiers/item_modifier[@name='modGunRetractingStock']/effect_group">
+			<passive_effect name="KickDegreesVertical" operation="perc_add" value="0.05" />
+			<passive_effect name="KickDegreesHorizontal" operation="perc_add" value="0.05" />
+			<passive_effect name="WalkSpeed" operation="perc_add" value="0.1" />
+			<passive_effect name="WeaponHandling" operation="perc_add" value=".15" />
+		</append>
+
+</configs>

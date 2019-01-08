@@ -1,0 +1,24 @@
+<configs>
+
+<!--	// 7DXMLfix // Rusty Iron Table -->
+
+		<remove xpath="/recipes/recipe[@name='rustyIronTable']" />
+		
+		<append xpath="/recipes">
+			<recipe name="rustyIronTable" count="1">
+				<ingredient name="resourceForgedIron" count="7" />
+			</recipe>
+		</append>
+
+
+<!--	// 7DXMLfix // Scrap Iron Stairs (Railing Left) -->
+
+		<remove xpath="/recipes/recipe[@name='scrapIronStairsFilledRailingLeft']" />
+		
+		<append xpath="/recipes">
+			<recipe name="scrapIronStairsFilledRailingLeft" count="1">
+				<ingredient name="resourceScrapIron" count="40" />
+			</recipe>
+		</append>
+
+</configs>

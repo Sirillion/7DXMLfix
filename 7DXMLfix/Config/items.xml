@@ -1,0 +1,17 @@
+<configs>
+
+<!--	// 7DXMLfix // HE Rocket Ammo -->
+
+		<set xpath="/items/item[@name='ammoRocketHE']/property[@class='Action1']/property[@name='Explosion.RadiusBlocks']/@value">7</set>
+
+		<append xpath="/items/item[@name='ammoRocketHE']/property[@class='Action1']">
+	        <property name="Explosion.DamageBonus.wood" value="3" />
+			<property name="Explosion.DamageBonus.metal" value="8" />
+			<property name="Explosion.DamageBonus.organic" value="1" />
+			<property name="Explosion.DamageBonus.earth" value="1" />
+			<property name="Explosion.DamageBonus.stone" value="5" />
+		</append>
+
+		<set xpath="/items/item[@name='ammoRocketHE']/effect_group[@name='Base Effects']/passive_effect[@name='BlockDamage']/@value">500</set>
+
+</configs>

@@ -1,0 +1,9 @@
+<configs>
+
+<!--	// 7DXMLfix // Scrap Iron Frame -->
+
+		<append xpath="/blocks/block[@name='scrapIronFrameCNRFull']">
+			<property name="CanPickup" value="true" />
+		</append>
+
+</configs>

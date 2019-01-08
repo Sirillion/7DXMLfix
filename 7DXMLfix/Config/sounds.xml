@@ -1,0 +1,38 @@
+<configs>
+
+<!--	// 7DXMLfix // Pistol Silenced Fire -->
+
+		<set xpath="/Sounds/SoundDataNode[@name='pistol_s_fire']/CrouchNoiseScale/@value">0</set>
+		<set xpath="/Sounds/SoundDataNode[@name='pistol_s_fire']/NoiseScale/@value">0</set>
+
+
+<!--	// 7DXMLfix // Shotgun Silenced Fire -->
+
+		<set xpath="/Sounds/SoundDataNode[@name='pump_shotgun_s_fire']/CrouchNoiseScale/@value">0</set>
+		<set xpath="/Sounds/SoundDataNode[@name='pump_shotgun_s_fire']/NoiseScale/@value">0</set>
+
+
+<!--	// 7DXMLfix // AK47 Silenced Fire -->
+
+		<set xpath="/Sounds/SoundDataNode[@name='ak47_s_fire']/CrouchNoiseScale/@value">0</set>
+		<set xpath="/Sounds/SoundDataNode[@name='ak47_s_fire']/NoiseScale/@value">0</set>
+
+
+<!--	// 7DXMLfix // MP5 Silenced Fire -->
+
+		<set xpath="/Sounds/SoundDataNode[@name='mp5_s_fire']/CrouchNoiseScale/@value">0</set>
+		<set xpath="/Sounds/SoundDataNode[@name='mp5_s_fire']/NoiseScale/@value">0</set>
+
+
+<!--	// 7DXMLfix // Sniper Silenced Fire -->
+
+		<set xpath="/Sounds/SoundDataNode[@name='sniperrifle_s_fire']/CrouchNoiseScale/@value">0</set>
+		<set xpath="/Sounds/SoundDataNode[@name='sniperrifle_s_fire']/NoiseScale/@value">0</set>
+
+
+<!--	// 7DXMLfix // Hunting Rifle Silenced Fire -->
+
+		<set xpath="/Sounds/SoundDataNode[@name='hunting_rifle_s_fire']/CrouchNoiseScale/@value">0</set>
+		<set xpath="/Sounds/SoundDataNode[@name='hunting_rifle_s_fire']/NoiseScale/@value">0</set>
+
+</configs>
