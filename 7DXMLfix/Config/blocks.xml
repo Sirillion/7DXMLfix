@@ -5,5 +5,13 @@
 		<append xpath="/blocks/block[@name='scrapIronFrameCNRFull']">
 			<property name="CanPickup" value="true" />
 		</append>
+	
+<!--	// 7DXMLfix // Dart Trap -->
+	
+		<append xpath="/blocks/block[@name='dartTrap']/property[@class='RepairItems']">
+			<property name="resourceForgedIron" value="16" />
+		</append>
+	
+		<remove xpath="/blocks/block[@name='dartTrap']/property[@class='RepairItems']/property[@name='resourceForgedSteel']" />
 
 </configs>
